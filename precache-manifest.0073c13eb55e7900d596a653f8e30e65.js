@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e511e96f2e2711c19fc2dcda820310f",
+    "revision": "922ec946d6ca62c31638bd3ba08181f6",
     "url": "/Fotowoltaika/index.html"
   },
   {
-    "revision": "4506cfb8cdc473a6961d",
-    "url": "/Fotowoltaika/static/css/main.4d301ecb.chunk.css"
+    "revision": "0da1d20b7fede8a961d2",
+    "url": "/Fotowoltaika/static/css/main.054daa7e.chunk.css"
   },
   {
     "revision": "c6a8e248849a2330f017",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Fotowoltaika/static/js/2.73c246af.chunk.js.LICENSE"
   },
   {
-    "revision": "4506cfb8cdc473a6961d",
-    "url": "/Fotowoltaika/static/js/main.9a45271b.chunk.js"
+    "revision": "0da1d20b7fede8a961d2",
+    "url": "/Fotowoltaika/static/js/main.9a00d8c9.chunk.js"
   },
   {
     "revision": "e485fe5a21ce82bfe66b",

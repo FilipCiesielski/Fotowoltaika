@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Fotowoltaika/static/css/main.4d301ecb.chunk.css",
-    "main.js": "/Fotowoltaika/static/js/main.9a45271b.chunk.js",
-    "main.js.map": "/Fotowoltaika/static/js/main.9a45271b.chunk.js.map",
+    "main.css": "/Fotowoltaika/static/css/main.054daa7e.chunk.css",
+    "main.js": "/Fotowoltaika/static/js/main.9a00d8c9.chunk.js",
+    "main.js.map": "/Fotowoltaika/static/js/main.9a00d8c9.chunk.js.map",
     "runtime-main.js": "/Fotowoltaika/static/js/runtime-main.9d1c0398.js",
     "runtime-main.js.map": "/Fotowoltaika/static/js/runtime-main.9d1c0398.js.map",
     "static/js/2.73c246af.chunk.js": "/Fotowoltaika/static/js/2.73c246af.chunk.js",
     "static/js/2.73c246af.chunk.js.map": "/Fotowoltaika/static/js/2.73c246af.chunk.js.map",
     "index.html": "/Fotowoltaika/index.html",
-    "precache-manifest.f7f8d5aee24334430fc91bf609a1b9a0.js": "/Fotowoltaika/precache-manifest.f7f8d5aee24334430fc91bf609a1b9a0.js",
+    "precache-manifest.0073c13eb55e7900d596a653f8e30e65.js": "/Fotowoltaika/precache-manifest.0073c13eb55e7900d596a653f8e30e65.js",
     "service-worker.js": "/Fotowoltaika/service-worker.js",
-    "static/css/main.4d301ecb.chunk.css.map": "/Fotowoltaika/static/css/main.4d301ecb.chunk.css.map",
+    "static/css/main.054daa7e.chunk.css.map": "/Fotowoltaika/static/css/main.054daa7e.chunk.css.map",
     "static/js/2.73c246af.chunk.js.LICENSE": "/Fotowoltaika/static/js/2.73c246af.chunk.js.LICENSE",
     "static/media/Benefit.scss": "/Fotowoltaika/static/media/zyskKobieta-min.2015bb36.jpg",
     "static/media/AboutUs.scss": "/Fotowoltaika/static/media/instalacja 5 kw.8b641153.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.9d1c0398.js",
     "static/js/2.73c246af.chunk.js",
-    "static/css/main.4d301ecb.chunk.css",
-    "static/js/main.9a45271b.chunk.js"
+    "static/css/main.054daa7e.chunk.css",
+    "static/js/main.9a00d8c9.chunk.js"
   ]
 }

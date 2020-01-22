@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Fotowoltaika/precache-manifest.f7f8d5aee24334430fc91bf609a1b9a0.js"
+  "/Fotowoltaika/precache-manifest.0073c13eb55e7900d596a653f8e30e65.js"
 );
 
 self.addEventListener('message', (event) => {
