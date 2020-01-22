@@ -32,6 +32,11 @@
     "prepush": "npm test",
     "...": "..."
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -48,6 +53,7 @@
     ]
   },
   "devDependencies": {
+    "husky": "^4.2.0",
     "husky-hg": "^0.15.4",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1"
