@@ -7,7 +7,9 @@ import { faBars, faHome } from "@fortawesome/free-solid-svg-icons";
 class NavBar extends Component {
   handleOnClick = () => {
     let hamburger = document.querySelector("#nav-icon4");
-    console.log(hamburger);
+
+    hamburger.classList.toggle("open");
+
     let mobileView = document.querySelector("nav");
     if (hamburger.className === "open") {
       mobileView.style.display = "flex";
