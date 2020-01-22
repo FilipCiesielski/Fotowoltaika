@@ -5,26 +5,29 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faHome } from "@fortawesome/free-solid-svg-icons";
 
 class NavBar extends Component {
-  state = {
-    mobileMenu: ""
-  };
-
   handleOnClick = () => {
+    let hamburger = document.querySelector("#nav-icon4");
+    console.log(hamburger);
     let mobileView = document.querySelector("nav");
-    mobileView.style.display = "flex";
+    if (hamburger.className === "open") {
+      mobileView.style.display = "flex";
+    } else {
+      mobileView.style.display = "none";
+    }
   };
   handleMenu = () => {
     let mobileFunction = window.matchMedia("(max-width: 768px)");
+    let hamburger = document.querySelector("#nav-icon4");
 
     if (mobileFunction.matches) {
       let mobileView = document.querySelector("nav");
       mobileView.style.display = "none";
+      hamburger.className = "";
     }
   };
   render() {
     window.onscroll = () => {
       const nav = document.querySelector("nav");
-
       if (
         document.body.scrollTop >= 100 ||
         document.documentElement.scrollTop >= 100
@@ -101,12 +104,12 @@ class NavBar extends Component {
             Kontakt
           </Link>
         </nav>
-        <FontAwesomeIcon
-          onClick={this.handleOnClick}
-          id="menuBars"
-          className="font-awesome"
-          icon={faBars}
-        />
+
+        <div onClick={this.handleOnClick} id="nav-icon4">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </>
     );
   }
