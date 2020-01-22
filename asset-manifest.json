@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Fotowoltaika/static/css/main.01d2c0d8.chunk.css",
+    "main.js": "/Fotowoltaika/static/js/main.24745802.chunk.js",
+    "main.js.map": "/Fotowoltaika/static/js/main.24745802.chunk.js.map",
+    "runtime-main.js": "/Fotowoltaika/static/js/runtime-main.9d1c0398.js",
+    "runtime-main.js.map": "/Fotowoltaika/static/js/runtime-main.9d1c0398.js.map",
+    "static/js/2.0f5c505c.chunk.js": "/Fotowoltaika/static/js/2.0f5c505c.chunk.js",
+    "static/js/2.0f5c505c.chunk.js.map": "/Fotowoltaika/static/js/2.0f5c505c.chunk.js.map",
+    "index.html": "/Fotowoltaika/index.html",
+    "precache-manifest.6768564400124dcfa199871690082fd2.js": "/Fotowoltaika/precache-manifest.6768564400124dcfa199871690082fd2.js",
+    "service-worker.js": "/Fotowoltaika/service-worker.js",
+    "static/css/main.01d2c0d8.chunk.css.map": "/Fotowoltaika/static/css/main.01d2c0d8.chunk.css.map",
+    "static/js/2.0f5c505c.chunk.js.LICENSE": "/Fotowoltaika/static/js/2.0f5c505c.chunk.js.LICENSE",
+    "static/media/Benefit.scss": "/Fotowoltaika/static/media/zyskKobieta.91a6134a.jpg",
+    "static/media/AboutUs.scss": "/Fotowoltaika/static/media/instalacja 5 kw.8b641153.jpg",
+    "static/media/Installation.scss": "/Fotowoltaika/static/media/paneleMonter.f4013618.jpg",
+    "static/media/Offer.scss": "/Fotowoltaika/static/media/paneleNiebo.8450a9fd.jpg",
+    "static/media/Header.scss": "/Fotowoltaika/static/media/paneleRodzina.e526a377.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d1c0398.js",
+    "static/js/2.0f5c505c.chunk.js",
+    "static/css/main.01d2c0d8.chunk.css",
+    "static/js/main.24745802.chunk.js"
+  ]
+}
