@@ -1,0 +1,65 @@
+@import "../../mixins";
+@import "./../../mobileVariable";
+
+.backgroundContact {
+  background-color: #363d49;
+  height: 100vh;
+}
+
+.contact {
+  .font-awesome,
+  p {
+    font-size: 3rem;
+    margin-right: 1rem;
+    width: 10%;
+
+    &:hover {
+      color: #f19e41;
+    }
+  }
+}
+
+.box__contact {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .google__maps {
+    @include imageSettings;
+
+    div {
+      &:first-child {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media #{$mobile} {
+  .backgroundContact {
+    justify-content: flex-start;
+  }
+  .contact {
+    margin-top: 2rem;
+  }
+  .box__contact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .google__maps {
+      @include imageSettings;
+      width: 18rem;
+      height: 14rem;
+      div {
+        &:first-child {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

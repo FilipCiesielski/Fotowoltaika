@@ -1,0 +1,15 @@
+@import "./../../mixins";
+@import "./../../mobileVariable";
+
+section {
+  justify-content: space-between;
+
+  .aboutUs {
+    background-image: url("../../assets/instalacja 5 kw.jpg");
+  }
+}
+@media #{$mobile} {
+  .aboutUs {
+    margin-top: 2rem;
+  }
+}

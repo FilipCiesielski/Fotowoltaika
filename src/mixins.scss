@@ -1,0 +1,39 @@
+@mixin imageSettings {
+  width: 80%;
+  height: 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-box-shadow: 0px 0px 22px 2px rgba(119, 119, 119, 1);
+  -moz-box-shadow: 0px 0px 22px 2px rgba(119, 119, 119, 1);
+  box-shadow: 0px 0px 22px 2px rgba(119, 119, 119, 1);
+}
+@mixin animationH1 {
+  -webkit-animation: text-focus-in 0.8s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+    both;
+  animation: text-focus-in 0.8s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+}

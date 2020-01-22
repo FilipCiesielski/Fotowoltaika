@@ -1,0 +1,68 @@
+@import "./../../mixins";
+@import "./../../mobileVariable";
+section {
+  justify-content: space-between;
+  .greyColor {
+    justify-content: space-between;
+  }
+  a {
+    font-size: 2rem;
+    display: flex;
+    padding: 0.5rem;
+    color: grey;
+    text-transform: uppercase;
+    width: 80%;
+    justify-content: center;
+
+    &:hover {
+      background-color: #f19e41;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    &:focus {
+      -webkit-box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.75);
+    }
+  }
+  .benefit {
+    background-image: url("../../assets/dlonDom.jpg");
+    margin-top: 1rem;
+  }
+  .benefit2 {
+    background-image: url("../../assets/zyskKobieta.jpg");
+    margin-bottom: 1rem;
+  }
+  .summary {
+    flex-direction: column;
+
+    span {
+      width: 80%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .font-awesome {
+        font-size: 1.5rem;
+        margin-right: 1rem;
+        color: #f19e41;
+      }
+    }
+  }
+}
+@media #{$mobile} {
+  section {
+    a {
+      width: 100%;
+      font-size: 1.5rem;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .summary {
+      span {
+        width: 90%;
+      }
+    }
+  }
+}
